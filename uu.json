@@ -1,0 +1,22 @@
+{
+    "version": "5.72.0",
+    "description": "UU Accelerator",
+    "homepage": "https://code.visualstudio.com/",
+    "license": "MIT",
+    "url": "https://uu.gdl.netease.com/5037/UU-5.23.1.exe#/dl.7z",
+    "hash": "2AD5DE9F1CCE2E34A2063FD8C9381C7C9B5E3D4D7C47F58CE5608DE95FBF2920",
+    "bin": "uu_launcher.exe",
+    "shortcuts": [
+        [
+            "uu_launcher.exe",
+            "UU"
+        ]
+    ],
+  "checkver": {
+        "url": "https://uu.163.com/baike/js/dl.js",
+        "regex": "VSCodeUserSetup-x64-([\\d.]+)\\.exe" 
+    },
+  "autoupdate": {
+        "url": "https://uu.gdl.netease.com/$matchBuild/UU-$matchVer.exe#/dl.7z"
+    }  
+}
